@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/data-visualisation-test/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/data-visualisation-test/static/js/main.fe68310f.chunk.js",
-    "main.js.map": "/data-visualisation-test/static/js/main.fe68310f.chunk.js.map",
-    "runtime-main.js": "/data-visualisation-test/static/js/runtime-main.4be1b9b5.js",
-    "runtime-main.js.map": "/data-visualisation-test/static/js/runtime-main.4be1b9b5.js.map",
-    "static/js/2.4bc92bb3.chunk.js": "/data-visualisation-test/static/js/2.4bc92bb3.chunk.js",
-    "static/js/2.4bc92bb3.chunk.js.map": "/data-visualisation-test/static/js/2.4bc92bb3.chunk.js.map",
-    "static/js/3.587d56ba.chunk.js": "/data-visualisation-test/static/js/3.587d56ba.chunk.js",
-    "static/js/3.587d56ba.chunk.js.map": "/data-visualisation-test/static/js/3.587d56ba.chunk.js.map",
-    "index.html": "/data-visualisation-test/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/data-visualisation-test/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.4bc92bb3.chunk.js.LICENSE.txt": "/data-visualisation-test/static/js/2.4bc92bb3.chunk.js.LICENSE.txt"
+    "main.css": "/Data-Visualisation-Ebiquity/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/Data-Visualisation-Ebiquity/static/js/main.fe68310f.chunk.js",
+    "main.js.map": "/Data-Visualisation-Ebiquity/static/js/main.fe68310f.chunk.js.map",
+    "runtime-main.js": "/Data-Visualisation-Ebiquity/static/js/runtime-main.690911f4.js",
+    "runtime-main.js.map": "/Data-Visualisation-Ebiquity/static/js/runtime-main.690911f4.js.map",
+    "static/js/2.1e9259db.chunk.js": "/Data-Visualisation-Ebiquity/static/js/2.1e9259db.chunk.js",
+    "static/js/2.1e9259db.chunk.js.map": "/Data-Visualisation-Ebiquity/static/js/2.1e9259db.chunk.js.map",
+    "static/js/3.587d56ba.chunk.js": "/Data-Visualisation-Ebiquity/static/js/3.587d56ba.chunk.js",
+    "static/js/3.587d56ba.chunk.js.map": "/Data-Visualisation-Ebiquity/static/js/3.587d56ba.chunk.js.map",
+    "index.html": "/Data-Visualisation-Ebiquity/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/Data-Visualisation-Ebiquity/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.1e9259db.chunk.js.LICENSE.txt": "/Data-Visualisation-Ebiquity/static/js/2.1e9259db.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4be1b9b5.js",
-    "static/js/2.4bc92bb3.chunk.js",
+    "static/js/runtime-main.690911f4.js",
+    "static/js/2.1e9259db.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
     "static/js/main.fe68310f.chunk.js"
   ]
