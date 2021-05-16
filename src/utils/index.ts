@@ -1,2 +1,2 @@
-export * from "./stockParser";
-export * from "./getStockColour";
+export * from "./dataParser";
+export * from "./getColour";

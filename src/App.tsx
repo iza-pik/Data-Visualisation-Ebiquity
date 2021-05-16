@@ -3,8 +3,8 @@ import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 import Header from "./components/Header/";
 import styled from "styled-components";
-import stockData from "./constants/stockData.json";
-import { getStockColour, stockParser } from "./utils";
+import data from "./constants/data.json";
+import { getColour, dataParser } from "./utils";
 
 export const AppWrapper = styled.div`
   text-align: center;
@@ -12,7 +12,7 @@ export const AppWrapper = styled.div`
   height: 100vh;
 `;
 
-const tickers = Object.keys(stockData);
+const tickers = Object.keys(data);
 
 const App: React.FC<{}> = () => {
   const options = {
@@ -20,10 +20,7 @@ const App: React.FC<{}> = () => {
       zoomType: "x",
     },
     title: {
-      text: "Stock prices change since 2010",
-    },
-    subtitle: {
-      text: "Click on the stock tickers to visualise and compare each or all of them at once.",
+      text: "Stock data",
     },
     tooltip: {
       backgroundColor: "rgba(169, 222, 183, 0.75)",
@@ -39,7 +36,7 @@ const App: React.FC<{}> = () => {
     series: tickers.map((ticker) => ({
       name: ticker,
       type: "area",
-      data: stockParser(stockData, ticker),
+      data: dataParser(data, ticker),
       gapSize: 5,
       tooltip: {
         valueDecimals: 2,
@@ -53,8 +50,8 @@ const App: React.FC<{}> = () => {
           y2: 1,
         },
         stops: [
-          [0, `rgb(${getStockColour(ticker)})`],
-          [1, `rgba(${getStockColour(ticker)}, 0.1)`],
+          [0, `rgb(${getColour(ticker)})`],
+          [1, `rgba(${getColour(ticker)}, 0.1)`],
         ],
       },
       lineWidth: 0.75,
